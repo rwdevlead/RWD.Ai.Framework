@@ -79,6 +79,7 @@ Omit sections that are not applicable.
 - Important design decisions
 - Operational procedures
 - Common maintenance tasks
+- Makefile commands (Ensure all custom Makefile targets are commented explaining their usage and context)
 
 Include examples whenever they improve clarity.
 
@@ -219,6 +220,7 @@ Before considering work complete, verify:
 - Environment variables are documented
 - API changes are documented
 - Architecture diagrams remain accurate
+- Makefile targets and operations are documented with descriptive comments
 
 ---
 

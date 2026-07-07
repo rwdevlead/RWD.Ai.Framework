@@ -1,62 +1,206 @@
-Review the repository as a senior software architect.
+Project Review
+
+You are acting as a senior software architect performing a comprehensive technical review of this project.
+
+Read the entire repository before making recommendations.
+
+Do not modify any files.
+
+Do not implement any recommendations.
+
+This task is for analysis and reporting only.
+
+⸻
+
+Review Objectives
+
+Evaluate the project as a whole, including:
+
+Architecture
+
+Review:
+
+- Overall architecture
+- Project structure
+- Solution organization
+- Separation of concerns
+- Layer boundaries
+- Dependency management
+- Design patterns
+- Scalability
+- Extensibility
+
+⸻
+
+Code Quality
 
 Evaluate:
 
-- Project organization
-- Architecture
-- Code quality
+- Readability
+- Consistency
+- Naming conventions
+- Complexity
+- Error handling
+- Logging
+- Code duplication
 - Technical debt
-- Documentation
-- Testing
-- Maintainability
-- AI memory accuracy
+- SOLID principles
+- Clean Architecture compliance (where applicable)
 
-Verify that:
+⸻
 
-- Documentation matches the implementation.
-- Project memory is current.
-- Architecture decisions are documented.
-- Dead code and obsolete documentation are identified.
+Build & Development Experience
 
-Produce a prioritized list of recommendations.
+Review:
 
----
-
-# Project Review
-
-Act as a senior software architect performing a technical review.
-
-Review the entire repository.
-
-Evaluate:
-
-- Architecture
-- Folder organization
-- Code quality
-- Maintainability
-- Technical debt
-- Testing
-- Documentation
-- Project memory
 - Build process
-- Security
-- Performance
+- Makefile
+- Docker configuration
+- Local development workflow
+- Configuration management
+- Environment variables
+- Developer onboarding experience
+
+⸻
+
+Testing
+
+Evaluate:
+
+- Unit test coverage
+- Test organization
+- Test quality
+- Missing test areas
+- Test automation
+- CI readiness
+
+⸻
+
+Security
+
+Review:
+
+- Secret management
+- Authentication and authorization
+- Dependency vulnerabilities
+- Secure configuration
+- Common security risks
+- Container security
+- CI/CD security readiness
+
+⸻
+
+Documentation
+
+Verify that documentation is accurate and complete.
+
+Review:
+
+- README
+- Architecture documentation
+- Setup documentation
+- API documentation
+- Deployment documentation
+- Contributor documentation
+- Roadmap
+- Changelog
+
+Identify:
+
+- Missing documentation
+- Outdated documentation
+- Duplicate documentation
+- Documentation that no longer reflects the implementation
+
+⸻
+
+AI Project Memory
+
+Review all AI project files.
 
 Verify that:
 
-- Documentation matches implementation.
-- Architecture decisions are documented.
-- Memory files are current.
-- Dead code is identified.
-- Obsolete documentation is identified.
-- Standards are consistently followed.
+- Long-term context is current.
+- Session handoff accurately reflects the project’s current state.
+- Planning documents remain synchronized with implementation.
+- Completed work has been removed from outstanding tasks.
+- Future work is clearly identified.
 
-Provide:
+⸻
 
-1. Executive summary
+Standards
+
+Verify that project standards are consistently followed, including:
+
+- Folder organization
+- Coding conventions
+- Naming conventions
+- Documentation standards
+- Testing standards
+- Repository organization
+
+⸻
+
+Deliverables
+
+Provide a report containing:
+
+1. Executive Summary
+
+A concise overview of the project’s overall health.
+
+Include:
+
+- Overall maturity
+- Major strengths
+- Primary risks
+
+⸻
+
 2. Strengths
+
+Identify what the project is doing well.
+
+⸻
+
 3. Risks
-4. High-priority recommendations
-5. Medium-priority recommendations
-6. Low-priority recommendations
-7. Suggested next steps
+
+Identify architectural, technical, operational, or maintainability risks.
+
+⸻
+
+4. High Priority Recommendations
+
+List issues that should be addressed before significant new feature development.
+
+⸻
+
+5. Medium Priority Recommendations
+
+List improvements that would improve quality or maintainability.
+
+⸻
+
+6. Low Priority Recommendations
+
+List optional improvements and future enhancements.
+
+⸻
+
+7. Technical Debt
+
+Identify accumulated technical debt and recommend how to reduce it.
+
+⸻
+
+8. Suggested Next Steps
+
+Recommend the logical order for addressing the identified issues.
+
+⸻
+
+Base all recommendations on the current state of the repository.
+
+Do not implement changes.
+
+Only produce the review report.
