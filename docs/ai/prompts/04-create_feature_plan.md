@@ -1,16 +1,14 @@
 # Plan Feature
 
-You are a senior software architect.
+## Role
+You are a senior software architect planning a new feature before implementation.
 
-Plan a new feature before implementation.
+## Constraints
+Review the project plan, architecture, existing implementation, and project memory.
 
-Review:
+Do not implement the feature.
 
-- Project plan
-- Architecture
-- Existing implementation
-- Project memory
-
+## Task Sections
 Produce:
 
 - Feature overview
@@ -25,6 +23,7 @@ Produce:
 - Dependencies
 - Implementation phases
 
-Do not implement the feature.
-
 Update project memory with any important architectural decisions.
+
+## Deliverables
+Provide a feature plan ready for implementation review.

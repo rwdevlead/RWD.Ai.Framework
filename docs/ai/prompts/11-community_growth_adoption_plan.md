@@ -1,21 +1,18 @@
+# Community Growth & Adoption Plan
+
+## Role
 You are updating the project roadmap.
 
+## Constraints
 Do not implement marketing assets.
-
 Only extend the project plan.
 
-⸻
-
-Goal
-
-Create a complete adoption and community growth strategy.
-
-The objective is to maximize both user adoption and outside contributors.
+## Task Sections
+Create a complete adoption and community growth strategy that maximizes both user adoption and outside contributors.
 
 Plan work streams covering:
 
-Website
-
+### Website
 - Landing page
 - Documentation site
 - Tutorials
@@ -23,8 +20,7 @@ Website
 - Getting Started guide
 - FAQ
 
-Documentation
-
+### Documentation
 Plan:
 
 - Beginner tutorials
@@ -34,8 +30,7 @@ Plan:
 - Deployment guides
 - API documentation
 
-Community
-
+### Community
 Plan for:
 
 - GitHub Discussions
@@ -45,8 +40,7 @@ Plan for:
 - Release notes
 - Community showcases
 
-Promotion
-
+### Promotion
 Plan strategies for launching on:
 
 - GitHub
@@ -56,10 +50,9 @@ Plan strategies for launching on:
 - LinkedIn
 - YouTube
 - Product Hunt
-- Reddit communities appropriate to the project
+- Relevant Reddit communities
 
-Content
-
+### Content
 Plan ongoing creation of:
 
 - Blog posts
@@ -69,8 +62,7 @@ Plan ongoing creation of:
 - Case studies
 - Example projects
 
-Open Source Growth
-
+### Open Source Growth
 Plan strategies for:
 
 - First-time contributors
@@ -79,8 +71,7 @@ Plan strategies for:
 - Community recognition
 - Contributor acknowledgements
 
-Feedback
-
+### Feedback
 Plan systems for:
 
 - Feature voting
@@ -88,8 +79,7 @@ Plan systems for:
 - Issue triage
 - Community roadmap input
 
-Success Metrics
-
+### Success Metrics
 Define measurable goals such as:
 
 - GitHub stars
@@ -101,10 +91,8 @@ Define measurable goals such as:
 - Issue response time
 - Time to first contribution
 
-⸻
-
 Update the AI context and session handoff so these activities become part of the long-term project roadmap.
 
+## Deliverables
 Do not create marketing materials.
-
 Only update the implementation roadmap.

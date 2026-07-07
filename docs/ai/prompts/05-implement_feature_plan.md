@@ -1,13 +1,18 @@
 # Implement Feature
 
+## Role
 Implement the approved feature.
 
+## Constraints
 Before beginning:
 
-1. Read AGENTS.md.
+1. Read `AGENTS.md`.
 2. Restore project context.
 3. Review the feature plan.
 
+Avoid unrelated refactoring unless necessary.
+
+## Task Sections
 During implementation:
 
 - Follow project standards.
@@ -17,8 +22,7 @@ During implementation:
 - Add tests when applicable.
 - Keep changes focused on the requested feature.
 
-Avoid unrelated refactoring unless necessary.
-
+## Deliverables
 When complete:
 
 - Update project memory.

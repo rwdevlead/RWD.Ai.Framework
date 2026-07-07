@@ -1,7 +1,9 @@
 # Start Development Session
 
+## Role
 You are continuing development of an existing project.
 
+## Constraints
 Before making any changes:
 
 1. Read `AGENTS.md`.
@@ -11,6 +13,9 @@ Before making any changes:
 5. Review blockers.
 6. Review outstanding tasks.
 
+Do not begin implementation until project context has been restored.
+
+## Task Sections
 Confirm your understanding of:
 
 - Current objective
@@ -19,8 +24,7 @@ Confirm your understanding of:
 - Risks
 - Next recommended action
 
-Do not begin implementation until project context has been restored.
+Follow all project policies and coding standards throughout the session. Maintain project memory as work progresses.
 
-Follow all project policies and coding standards throughout the session.
-
-Maintain project memory as work progresses.
+## Deliverables
+Proceed only after the current session context is clear.

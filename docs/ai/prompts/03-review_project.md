@@ -1,25 +1,20 @@
-Project Review
+# Project Review
 
-You are acting as a senior software architect performing a comprehensive technical review of this project.
+## Role
+You are a senior software architect performing a comprehensive technical review of this project.
 
+## Constraints
 Read the entire repository before making recommendations.
 
 Do not modify any files.
-
 Do not implement any recommendations.
 
 This task is for analysis and reporting only.
 
-⸻
-
-Review Objectives
-
+## Review Objectives
 Evaluate the project as a whole, including:
 
-Architecture
-
-Review:
-
+### Architecture
 - Overall architecture
 - Project structure
 - Solution organization
@@ -30,12 +25,7 @@ Review:
 - Scalability
 - Extensibility
 
-⸻
-
-Code Quality
-
-Evaluate:
-
+### Code Quality
 - Readability
 - Consistency
 - Naming conventions
@@ -45,14 +35,9 @@ Evaluate:
 - Code duplication
 - Technical debt
 - SOLID principles
-- Clean Architecture compliance (where applicable)
+- Clean Architecture compliance, where applicable
 
-⸻
-
-Build & Development Experience
-
-Review:
-
+### Build & Development Experience
 - Build process
 - Makefile
 - Docker configuration
@@ -61,12 +46,7 @@ Review:
 - Environment variables
 - Developer onboarding experience
 
-⸻
-
-Testing
-
-Evaluate:
-
+### Testing
 - Unit test coverage
 - Test organization
 - Test quality
@@ -74,12 +54,7 @@ Evaluate:
 - Test automation
 - CI readiness
 
-⸻
-
-Security
-
-Review:
-
+### Security
 - Secret management
 - Authentication and authorization
 - Dependency vulnerabilities
@@ -88,13 +63,8 @@ Review:
 - Container security
 - CI/CD security readiness
 
-⸻
-
-Documentation
-
-Verify that documentation is accurate and complete.
-
-Review:
+### Documentation
+Verify that documentation is accurate and complete. Review:
 
 - README
 - Architecture documentation
@@ -105,31 +75,18 @@ Review:
 - Roadmap
 - Changelog
 
-Identify:
+Identify missing, outdated, duplicate, or mismatched documentation.
 
-- Missing documentation
-- Outdated documentation
-- Duplicate documentation
-- Documentation that no longer reflects the implementation
+### AI Project Memory
+Review all AI project files and verify that:
 
-⸻
+- Long-term context is current
+- Session handoff reflects the project’s current state
+- Planning documents remain synchronized with implementation
+- Completed work has been removed from outstanding tasks
+- Future work is clearly identified
 
-AI Project Memory
-
-Review all AI project files.
-
-Verify that:
-
-- Long-term context is current.
-- Session handoff accurately reflects the project’s current state.
-- Planning documents remain synchronized with implementation.
-- Completed work has been removed from outstanding tasks.
-- Future work is clearly identified.
-
-⸻
-
-Standards
-
+### Standards
 Verify that project standards are consistently followed, including:
 
 - Folder organization
@@ -139,68 +96,41 @@ Verify that project standards are consistently followed, including:
 - Testing standards
 - Repository organization
 
-⸻
-
-Deliverables
-
+## Deliverables
 Provide a report containing:
 
 1. Executive Summary
 
-A concise overview of the project’s overall health.
-
-Include:
-
-- Overall maturity
-- Major strengths
-- Primary risks
-
-⸻
+A concise overview of the project’s overall health, including overall maturity, major strengths, and primary risks.
 
 2. Strengths
 
 Identify what the project is doing well.
 
-⸻
-
 3. Risks
 
 Identify architectural, technical, operational, or maintainability risks.
-
-⸻
 
 4. High Priority Recommendations
 
 List issues that should be addressed before significant new feature development.
 
-⸻
-
 5. Medium Priority Recommendations
 
 List improvements that would improve quality or maintainability.
-
-⸻
 
 6. Low Priority Recommendations
 
 List optional improvements and future enhancements.
 
-⸻
-
 7. Technical Debt
 
 Identify accumulated technical debt and recommend how to reduce it.
-
-⸻
 
 8. Suggested Next Steps
 
 Recommend the logical order for addressing the identified issues.
 
-⸻
-
 Base all recommendations on the current state of the repository.
-
 Do not implement changes.
-
 Only produce the review report.

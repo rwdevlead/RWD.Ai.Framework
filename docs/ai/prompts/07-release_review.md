@@ -1,39 +1,29 @@
-Release Readiness Review
+# Release Readiness Review
 
-You are acting as a senior software architect performing the final technical review before releasing this project.
+## Role
+You are a senior software architect performing the final technical review before releasing this project.
 
+## Constraints
 Review the entire repository.
 
 Do not modify any files.
-
 Do not implement fixes.
 
 This task is for analysis and reporting only.
 
-⸻
+## Review Objectives
+Determine whether the project is ready for a production release and evaluate every area that could affect release quality, stability, maintainability, and user experience.
 
-Review Objectives
-
-Determine whether the project is ready for a production release.
-
-Evaluate every area that could affect release quality, stability, maintainability, and the user experience.
-
-⸻
-
-Implementation Status
-
+### Implementation Status
 Verify that:
 
-- All planned work for this release has been completed.
-- Deferred work is clearly documented.
-- Outstanding issues are tracked.
-- Known limitations are documented.
-- The roadmap accurately reflects future work.
+- All planned work for this release has been completed
+- Deferred work is clearly documented
+- Outstanding issues are tracked
+- Known limitations are documented
+- The roadmap accurately reflects future work
 
-⸻
-
-Build & Deployment
-
+### Build & Deployment
 Review:
 
 - Build process
@@ -46,16 +36,13 @@ Review:
 
 Verify that:
 
-- The project builds successfully.
-- Release artifacts can be generated.
-- Docker images are production ready.
-- Version numbers are consistent.
-- Release configuration is complete.
+- The project builds successfully
+- Release artifacts can be generated
+- Docker images are production ready
+- Version numbers are consistent
+- Release configuration is complete
 
-⸻
-
-Testing
-
+### Testing
 Review:
 
 - Backend unit tests
@@ -65,51 +52,38 @@ Review:
 
 Verify that:
 
-- All required tests pass.
-- Critical functionality is covered.
-- No failing or disabled tests remain.
-- Release quality meets project standards.
+- All required tests pass
+- Critical functionality is covered
+- No failing or disabled tests remain
+- Release quality meets project standards
 
-⸻
+### CI/CD
+Review the release pipeline and verify that:
 
-CI/CD
+- GitHub Actions are current
+- Required status checks are configured
+- Security scans complete successfully
+- Dependency checks pass
+- Container publishing is correctly configured
+- Release automation is ready
 
-Review the release pipeline.
+### Documentation
+Review all project documentation and verify that:
 
-Verify that:
-
-- GitHub Actions are current.
-- Required status checks are configured.
-- Security scans complete successfully.
-- Dependency checks pass.
-- Container publishing is correctly configured.
-- Release automation is ready.
-
-⸻
-
-Documentation
-
-Review all project documentation.
-
-Verify that:
-
-- README is current.
-- Installation instructions are accurate.
-- Quick Start documentation is complete.
-- User documentation is complete.
-- API documentation is current.
-- Deployment documentation is complete.
-- Contributor documentation is current.
-- CHANGELOG is up to date.
-- ROADMAP reflects the current project status.
-- Release notes can be generated.
+- README is current
+- Installation instructions are accurate
+- Quick Start documentation is complete
+- User documentation is complete
+- API documentation is current
+- Deployment documentation is complete
+- Contributor documentation is current
+- CHANGELOG is up to date
+- ROADMAP reflects the current project status
+- Release notes can be generated
 
 Identify any outdated, missing, or inconsistent documentation.
 
-⸻
-
-Security
-
+### Security
 Review:
 
 - Secret management
@@ -121,98 +95,41 @@ Review:
 
 Identify any issues that should block a release.
 
-⸻
+### AI Project Memory
+Review all AI project files and verify that:
 
-AI Project Memory
+- Long-term context reflects the current implementation
+- Session handoff accurately describes the current project state
+- Completed work has been removed from outstanding tasks
+- Remaining work is clearly identified
 
-Review all AI project files.
-
-Verify that:
-
-- Long-term context reflects the current implementation.
-- Session handoff accurately describes the current project state.
-- Completed work has been removed from outstanding tasks.
-- Remaining work is clearly identified.
-
-⸻
-
-Release Deliverables
-
+## Deliverables
 Provide a release report containing:
 
 1. Release Readiness Assessment
 
-State whether the project is:
-
-- Ready for Release
-- Ready with Minor Issues
-- Not Ready for Release
-
-Explain the reasoning.
-
-⸻
+State whether the project is Ready for Release, Ready with Minor Issues, or Not Ready for Release. Explain the reasoning.
 
 2. Executive Summary
 
 Summarize the overall health of the release.
 
-⸻
-
 3. Release Checklist
 
-Summarize the status of:
-
-- Features
-- Documentation
-- Testing
-- Build
-- CI/CD
-- Security
-- Docker
-- Versioning
-- AI project memory
-
-⸻
+Summarize the status of features, documentation, testing, build, CI/CD, security, Docker, versioning, and AI project memory.
 
 4. Remaining Risks
 
-Identify issues that could impact users after release.
-
-Classify each as:
-
-- Critical
-- High
-- Medium
-- Low
-
-⸻
+Identify issues that could impact users after release and classify each as Critical, High, Medium, or Low.
 
 5. Recommended Release Notes
 
-Summarize:
-
-- New features
-- Improvements
-- Bug fixes
-- Breaking changes
-- Known limitations
-
-⸻
+Summarize new features, improvements, bug fixes, breaking changes, and known limitations.
 
 6. Follow-up Work
 
-List work that should be completed after the release.
-
-Prioritize:
-
-- High
-- Medium
-- Low
-
-⸻
+List work that should be completed after the release and prioritize it as High, Medium, or Low.
 
 Base your assessment on the current state of the repository.
-
 Do not implement changes.
-
 Only produce the release readiness report.

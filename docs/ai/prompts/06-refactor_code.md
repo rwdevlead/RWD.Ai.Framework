@@ -1,7 +1,9 @@
 # Refactor Code
 
+## Role
 You are performing a controlled refactor.
 
+## Constraints
 Goals:
 
 - Improve maintainability.
@@ -10,14 +12,10 @@ Goals:
 - Preserve functionality.
 - Preserve public interfaces unless approved.
 
-Before making changes:
+Before making changes, review the existing architecture, project memory, and coding standards.
+Do not introduce new features.
 
-Review:
-
-- Existing architecture
-- Project memory
-- Coding standards
-
+## Task Sections
 During refactoring:
 
 - Prefer small, incremental improvements.
@@ -26,8 +24,7 @@ During refactoring:
 - Simplify logic.
 - Improve separation of concerns.
 
-Do not introduce new features.
-
 Document significant architectural improvements.
 
+## Deliverables
 Update project memory before completing the task.
